@@ -1,0 +1,1317 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+img{
+    width: 100%;
+}
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Techplatoon Official Website 
+   ========================================================================== */
+/*-----------------------------------------------------------------------
+general & home
+------------------------------------------------------------------------*/
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    position: relative;
+}
+h2, h3{
+    font-family: 'Playball';
+}
+p, article{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.3vw;
+    line-height: 1.8;
+    text-align: justify;
+}
+.sub-head{
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+}
+.top{
+    display: none;
+}
+.home{
+    height: 1080px;
+    background-image: url("../img/background.JPG");
+    background-size: cover; 
+}
+.layer{
+    height: 1080px;
+    background-color: rgba(255,255,255, 0.8);
+}
+.title{
+    clear: both;
+    padding-top: 300px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.title img{
+    width: 39%;
+    height: auto;
+    padding-bottom: 15px;
+}
+.title h2{
+    margin: 0 auto;
+    max-width: 39%;
+    font-weight: bold;
+    font-size: 3.3vw;
+    border-top: 3px solid #57585b;
+    border-bottom: 3px solid #57585b;
+    padding: 10px;
+    color: #57585b;
+}
+/*end of home style*/
+/*---------------------------------------------------------------------
+navigation in general style
+----------------------------------------------------------------------*/
+.navbar, .nav{
+    font-family: 'Playfair';
+    font-weight: bold;
+}
+/*-----------------------------------------------------------------------
+fixed top nav style
+------------------------------------------------------------------------*/
+.navbar-fixed-top{
+    height: 95px;
+    text-transform: uppercase;
+    opacity: .9;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color: #ff3131;
+    -moz-color: #ff3131;
+    border-bottom: 3px solid #ff3131;
+}
+.navbar-default .navbar-nav .active{
+    color: #ff3131;
+    -moz-color: #ff3131;
+    border-bottom: 3px solid #ff3131;
+}
+.navbar-brand img{
+    max-width: 70px;
+    position: absolute;
+}
+.navbar-nav{
+    float: right;
+    padding: 20px 10px;
+}
+/*-----------------------------------------------------------------------
+nav style end here
+-------------------------------------------------------------------------*/
+.nav{
+    text-align: center;
+}
+.main-nav li{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+}
+.main-nav li a{
+    text-decoration: none;
+    padding: 43px;
+    margin: 10px;
+    color: #57585b;
+    font-size: 1.2em;
+}
+.main-nav li a:hover{
+    color: black;
+}
+/*end of navigation style*/
+/*-----------------------------------------------------------------------
+services style
+-------------------------------------------------------------------------*/
+#services{
+    margin: 0 auto;
+    overflow: hidden;
+}
+#contact h3,
+#services h3{
+    /*font-size: 5vw;*/
+    font-size: 3.8vw;
+}
+.type-a, .type-b{
+    background-color: #ff3131;
+    color: white;
+}
+.type-b{
+    background-color: #fff;
+    color: black;
+}
+.type-a h3{
+    color: #fff;
+}
+.type-b h3{
+    color: #ff3131;
+}
+.row{
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 70%;
+}
+.serv-img img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+.sm-scr{
+    display: none;
+}
+/*-----------------------------------------------------------------------
+out story
+-------------------------------------------------------------------------*/
+#about{
+    background: url('../img/about.jpeg');
+    background-size: cover;
+    background-color: rgba(255,255,255, 0.8);
+    height: 1080px;
+}
+.layer-about{
+    top: 0;
+    background-color: rgba(255,255,255, 0.92);
+    overflow: hidden;
+    height: 1080px;
+}
+.story-head{
+    color: #ff3131;
+    font-size: 5vw;
+    padding: 200px 0 100px 0;
+    font-weight: bold;
+}
+.story-p{
+    clear: both;
+    margin: 0 auto;
+    width: 70%;
+}
+/*-----------------------------------------------------------------------
+Contact page
+------------------------------------------------------------------------*/
+#contact{
+    background-color: #ff3131;
+    text-align: center;
+    height: 1080px;
+    color: #fff;
+    overflow: hidden;
+}
+.contact-head{
+    color: #fff;
+    text-align: center;
+}
+#contact img{
+    width: 7%;
+    margin-right: 15px;
+}
+.contact-div{
+    padding-top: 100px;
+}
+.contact-info{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.9vw;
+}
+.contact-info a{
+    color: #fff;
+}
+/*-----------------------------------------------------------------------
+Laptops & other screen 1400px max
+------------------------------------------------------------------------*/
+@media only screen and (max-width: 1400px){
+    /*general*/
+    p, article{
+        font-size: 1.6vw;
+    }
+    /*navigation*/
+    .main-nav li a{
+        padding: 38px;
+    }
+    /*home page*/
+    .home{
+        height: 700px;
+    }
+    .layer{
+        height: 700px;
+    }
+    .title{
+        clear: both;
+        padding-top: 150px;
+    }
+    .title h2{
+        font-size: 3vw;
+    }
+    /*end of home*/
+    /*services*/
+    .row{
+        width: 85%;
+    }
+    /*end of services*/
+    /*our story*/
+    #about{
+        height: 700px;
+    }
+    .layer-about{
+        height: 700px;
+    }
+    .story-head{
+        padding: 100px 0 20px 0;
+    }
+    .story-p{
+        width: 80%;
+    }
+    /*end of our story*/
+    /*contact*/
+    #contact{
+        height: 700px;
+    }
+}
+
+/*-----------------------------------------------------------------------
+tablets portrait
+------------------------------------------------------------------------*/
+@media only screen and (min-width: 981px){
+    .sm-scr{
+        display: none;
+    }
+    .lg-scr{
+        display: block;
+    }
+    ..serv-img img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 980px) {
+    p, article{
+        font-size: 2.2vw;
+    }
+    .home{
+        height: 1000px;
+    }
+    .layer{
+        height: 1000px;
+    }
+    .title{
+        padding-top: 320px;
+    }
+    .title img{
+        width: 350px;
+    }
+    .title h2{
+        max-width: 360px;
+        font-size: 2.2em;
+    }
+    /*main nav*/
+    .main-nav{
+        font-size: .9em;
+    }
+    .main-nav li a{
+        padding: 10px 15px;
+    }
+    .row{
+        width: 85%;
+        padding: 100px 0;
+    }
+    /*contact page*/
+    #contact{
+        height: 600px;
+    }
+    .serv-img{
+        text-align: center;
+    }
+    .serv-img img{
+        width: 50%;
+    }
+    .sm-scr{
+        display: block;
+    }
+    .lg-scr{
+        display: none;
+    }
+}
+/*responsive nav shit*/
+@media only screen and (max-width: 768px){
+    .showfuck{
+        width: 100%;
+        background: #ff3131;
+        margin-top: 95px;
+    }
+    .showfuck ul{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+    }
+}
+/*-----------------------------------------------------------------------
+mobile devices landscape
+------------------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+    .home{
+        height: 400px;
+    }
+    .title{
+        padding-top: 35px;
+    }
+    #about{
+        height: 450px;
+    }
+}
+/*-----------------------------------------------------------------------
+mobile devices
+------------------------------------------------------------------------*/
+@media only screen and (max-width : 560px){
+    /*general*/
+    p, article{
+        font-size: 4vw;
+    }
+    /*end of general*/
+    /*navigation*/
+    .navbar-default .navbar-nav>li>a{
+        color: #fff;
+    }
+    .main-nav{
+        display: none;
+    }
+    .title{
+        padding-top: 250px;
+    }
+    .title h2{
+        max-width: 250px;
+        font-size: 1.5em;
+    }
+    .showfuck{
+        width: 100%;
+        background: #ff3131;
+        margin-top: 95px;
+    }
+    .showfuck ul{
+        width: 100%;
+        text-align: center;
+    }
+    
+    /*end of navigation*/
+    /*home*/
+    .title img{
+        width: 240px;
+    }
+    /*end of home*/
+    .serv-img img{
+        padding: 10%
+    }
+    .sm-scr{
+        display: block;
+    }
+    .lg-scr{
+        display: none;
+    }
+    /*services*/
+    .sub-head{
+        font-size: 8vw;
+    }
+    #about{
+        height: 750px;
+    }
+    .layer-about{
+        height: 750px;   
+    }
+    #contact h3,
+    #services h3{
+        clear: both;
+        font-size: 8vw;
+    }
+    .row{
+        width: 95%;
+    }
+    /*contact page*/
+    #contact{
+        height: 500px;
+    }
+    .contact-info{
+        font-size: 6vw;
+    }
+    .contact-div{
+        padding-top: 40px;
+    }
+/*-----------------------------------------------------------------------
+mobile devices old
+------------------------------------------------------------------------*/
+@media only screen and (max-width : 360px){
+    .home{
+        height: 620px;
+    }
+    .title{
+        padding-top: 180px;
+    }
+}
+    /*footer*/
+    footer{
+        overflow: hidden;
+        height: 80px;
+    }
+    .follow{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .copyright{
+        width: 100%;
+        padding: 10px 0;
+        float: none;
+        text-align: center;
+    }
+}
+/*-----------------------------------------------------------------------
+Footer
+------------------------------------------------------------------------*/
+footer{
+    overflow: hidden;
+    height: 45px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+footer img{
+    padding: 0;
+    width: 50px;
+    position: relative;
+    left: 0;
+    right: 0;  
+}
+.foot{
+    padding: o;
+    clear: both;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+}
+footer p{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+/*-----------------------------------------------------------------------
+Social & Copyright 
+-----------------------------------------------------------------------*/
+.follow{
+    float: left;
+}
+.copyright{
+    padding: 10px 0;
+    float: right;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; 
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+/*animation*/
+body {
+  background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEX4+Pj09PQf/c7fAAAAGklEQVR4Xq3MIQEAAADDIPqX/kvMIMEWEm8O7b0/wewc/NcAAAAASUVORK5CYII=) repeat;
+}
+
+.block {
+  height: 5em;
+  line-height: 5em;
+  width: 10em;
+  background: #464646;
+  color: #fdfdfd;
+  text-align: center;
+  margin: 1em auto;
+  text-shadow: 0 0 1px #333; /* so one can see fadeBgColor properly */
+}
+
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;   
+  -moz-animation-play-state: paused;     
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;   
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+/* CSS Animations (extracted from http://glifo.uiparade.com/) */
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }   100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px);
+    }
+    60% {
+        -webkit-transform: translateX(20px);
+    }
+
+    80% {
+        -webkit-transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@-moz-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(-2000px);
+    }
+
+    60% {
+        -moz-transform: translateX(20px);
+    }
+
+    80% {
+        -moz-transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+
+@-o-keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(-2000px);
+    }
+
+    60% {
+        opacity: 1;
+        -o-transform: translateX(20px);
+    }
+
+    80% {
+        -o-transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+
+    60% {
+        transform: translateX(20px);
+    }
+
+    80% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(2000px);
+    }
+
+    60% {
+        -webkit-transform: translateX(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@-moz-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(2000px);
+    }
+
+    60% {
+        -moz-transform: translateX(-20px);
+    }
+
+    80% {
+        -moz-transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+
+@-o-keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        -o-transform: translateX(2000px);
+    }
+
+    60% {
+        -o-transform: translateX(-20px);
+    }
+
+    80% {
+        -o-transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(2000px);
+    }
+
+    60% {
+        transform: translateX(-20px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+    }   100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -o-transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+    }
+
+    70% {
+        -webkit-transform: scale(.9);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(.3);
+    }
+
+    50% {
+        -moz-transform: scale(1.05);
+    }
+
+    70% {
+        -moz-transform: scale(.9);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+}
+
+@-o-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -o-transform: scale(.3);
+    }
+
+    50% {
+        -o-transform: scale(1.05);
+    }
+
+    70% {
+        -o-transform: scale(.9);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    70% {
+        transform: scale(.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(40px);
+    }   100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -moz-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+
+@-o-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -o-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fadeBgColor {
+    0%{
+        background:none;
+    }
+  70%{
+        background:none;
+    }
+    100%{
+        background:#464646;
+    }
+}
+@-o-keyframes fadeBgColor {
+    0%{
+        background:none;
+    }
+  70%{
+        background:none;
+    }
+    100%{
+        background:#464646;
+    }
+}
+@keyframes fadeBgColor {
+    0%{
+        background:none;
+    }
+  70%{
+        background:none;
+    }
+    100%{
+        background:#464646;
+    }
+}
+
+.animated.animationDelay{
+    animation-delay:.4s;
+    -webkit-animation-delay:.4s;
+}
+.animated.animationDelayMed{
+    animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+}
+.animated.animationDelayLong{
+    animation-delay:1.6s;
+    -webkit-animation-delay:1.6s;
+}
+.animated.fadeBgColor {
+    -webkit-animation-name: fadeBgColor;
+    -moz-animation-name: fadeBgColor;
+    -o-animation-name: fadeBgColor;
+    animation-name: fadeBgColor;
+}
+.animated.bounceIn {
+    -webkit-animation-name: bounceIn;
+    -moz-animation-name: bounceIn;
+    -o-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+.animated.bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    -moz-animation-name: bounceInRight;
+    -o-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+}
+.animated.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    -moz-animation-name: bounceInLeft;
+    -o-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+.animated.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.animated.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animated.moveUp {
+    -webkit-animation-name: moveUp;
+    -moz-animation-name: moveUp;
+    -o-animation-name: moveUp;
+    animation-name: moveUp;
+}
+.fadeInUp{
+    -vendor-animation-delay: 4s;
+    -vendor-animation-duration: 4s;
+}
