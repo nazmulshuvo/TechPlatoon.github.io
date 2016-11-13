@@ -228,12 +228,13 @@ services style
     width: 100%;
     height: auto;
     padding: 5%;
+    display: block;
 }
 .sm-scr{
     display: none;
 }
 /*-----------------------------------------------------------------------
-out story
+our story
 -------------------------------------------------------------------------*/
 #about{
     background: url('../img/about.jpg');
