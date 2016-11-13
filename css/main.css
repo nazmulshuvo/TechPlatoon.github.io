@@ -228,7 +228,7 @@ services style
     width: 100%;
     height: auto;
     padding: 5%;
-    display: block;
+    display: block !important;
 }
 .sm-scr{
     display: none;
