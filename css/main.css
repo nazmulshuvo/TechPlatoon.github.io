@@ -6,16 +6,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
 
 /*
  * A better looking default horizontal rule
@@ -224,12 +215,12 @@ services style
     width: 70%;
 }
 .serv-img img{
+    clear: both;
     margin: 0 auto;
     width: 100%;
     height: auto;
     padding: 5%;
-    display: block !important;
-   -moz-display: block;
+    display: block;
 }
 .sm-scr{
     display: none;
