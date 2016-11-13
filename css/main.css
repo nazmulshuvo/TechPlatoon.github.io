@@ -349,7 +349,7 @@ tablets portrait
     .lg-scr{
         display: block;
     }
-    ..serv-img img{
+    .serv-img img{
         width: 100%;
     }
 }
