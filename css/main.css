@@ -470,6 +470,7 @@ mobile devices
     }
     /*end of home*/
     .serv-img img{
+        width: 90%;
         padding: 10%
     }
     .sm-scr{
