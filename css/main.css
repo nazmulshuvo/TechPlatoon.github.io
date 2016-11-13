@@ -215,7 +215,6 @@ services style
     width: 70%;
 }
 .serv-img img{
-    clear: both;
     margin: 0 auto;
     width: 100%;
     height: auto;
