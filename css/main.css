@@ -146,11 +146,6 @@ p, article{
 .arrow-down img{
     width: 100px;
 }
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
 /*end of home style*/
 /*---------------------------------------------------------------------
 navigation in general style
@@ -364,14 +359,16 @@ tablets portrait
     .lg-scr{
         display: block;
     }
-    ..serv-img img{
+    .serv-img img{
         width: 100%;
     }
 }
 @media only screen and (max-width: 980px) {
+    /*general*/
     p, article{
         font-size: 2.2vw;
     }
+    /*home*/
     .home{
         height: 1000px;
     }
@@ -438,6 +435,9 @@ mobile devices landscape
     .home{
         height: 400px;
     }
+    .layer{
+        height: 400px;
+    }
     .title{
         padding-top: 35px;
     }
@@ -462,6 +462,9 @@ mobile devices
         display: none;
     }
     .home{
+        height: 700px;
+    }
+    .layer{
         height: 700px;
     }
     .title{
@@ -530,6 +533,9 @@ mobile devices old
 ------------------------------------------------------------------------*/
 @media only screen and (max-width : 360px){
     .home{
+        height: 620px;
+    }
+    .layer{
         height: 620px;
     }
     .title{
@@ -760,18 +766,6 @@ Social & Copyright
     }
 }
 /*animation*/
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
 
 .block {
   height: 5em;
@@ -1344,3 +1338,20 @@ Social & Copyright
     -vendor-animation-duration: 4s;
 }
 
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
