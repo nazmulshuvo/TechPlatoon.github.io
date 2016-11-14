@@ -1,7 +1,27 @@
 // sticky navigation
-$(document).scroll(function() {
-$('.top').toggle($(this).scrollTop() > 500);
+(function ($) {
+  $(document).ready(function(){
+    
+  // hide .navbar first
+  $(".navbar").hide();
+  
+  // fade in .navbar
+  $(function () {
+    $(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+      if ($(this).scrollTop() > 500) {
+        $('.navbar').fadeIn();
+      } else {
+        $('.navbar').fadeOut();
+      }
+    });
+
+  
+  });
+
 });
+  }(jQuery));
+//end of another 
 // smooth scroll effect
 $(function() {
 $('a[href*="#"]:not([href="#"])').click(function() {
