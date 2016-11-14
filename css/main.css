@@ -126,9 +126,12 @@ p, article{
     height: auto;
     padding-bottom: 15px;
 }
-.title h2{
-    margin: 0 auto;
-    max-width: 39%;
+.slogan{
+    text-align: center;
+}
+.slogan h2{
+    text-align: center;
+    display: inline;
     font-weight: bold;
     font-size: 3.3vw;
     border-top: 3px solid #57585b;
@@ -310,7 +313,7 @@ Laptops & other screen 1400px max
         clear: both;
         padding-top: 150px;
     }
-    .title h2{
+    .slogan h2{
         font-size: 3vw;
     }
     /*end of home*/
@@ -369,7 +372,7 @@ tablets portrait
     .title img{
         width: 350px;
     }
-    .title h2{
+    .slogan h2{
         max-width: 360px;
         font-size: 2.2em;
     }
@@ -446,10 +449,13 @@ mobile devices
     .main-nav{
         display: none;
     }
+    .home{
+        height: 700px;
+    }
     .title{
         padding-top: 250px;
     }
-    .title h2{
+    .slogan h2{
         max-width: 250px;
         font-size: 1.5em;
     }
